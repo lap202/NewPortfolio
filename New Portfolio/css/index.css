@@ -1,0 +1,45 @@
+html {
+    scroll-behavior: smooth;
+    
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.bgAni {
+    background-size: 300% 300%;
+    background-image: linear-gradient(
+          -45deg, 
+          rgb(19, 122, 170) 0%, 
+          rgb(66, 81, 153) 25%, 
+          rgb(10, 30, 83) 51%, 
+          rgb(0, 136, 248) 100%
+    );  
+    animation: AnimateBG 20s ease infinite;
+  }
+  
+  @keyframes AnimateBG { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+  }
+
+  .vh {
+    height: 100vh;
+  }
+
+  .personalImage {
+    width: 40%;
+    border-radius: 50%;
+    margin: 5%;
+  }
+
+  .landingLinks a {
+    display: block;
+    color: white;
+    text-decoration: none;
+  }
+
+  .landingLinks a:hover {
+    color: aqua;
+  }

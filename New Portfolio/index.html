@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Andrew Bach - Full Stack Developer</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Bootstrap 5-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/navbarScroll.js"></script>
+
+  <!--My Stylesheets-->
+  <link href="./css/index.css" rel="stylesheet">
+</head>
+<body>
+  
+<div class="container-fluid">
+
+  <div class="row bgAni vh align-items-center" id="landing">
+    <div class="col-12 col-md-8 col-lg-5 offset-md-2 offset-lg-2 text-center text-white">
+      <img class="img-fluid personalImage" src="img/AndrewBach.jpg">
+      <h1>Andrew</h1>
+      <h1>Bach</h1>
+      <hr style="width: 50%; margin-left: 25%; margin-right: 25%;">
+      <h2>Full Stack Developer</h2>
+      <a class="btn btn-primary mt-3 mb-5" href="#about" role="button">Learn more about me!</a>
+      <div id="landingLinks" class="container-fluid">
+        <a href="https://github.com/lap202" target="_blank"><img src="img/githublogo.png" id="githubLink" class="img-fluid m-2 col-1" onmouseover="github_onHover()" onmouseout="github_offHover()"></a>
+        <a href="https://www.linkedin.com/in/andrew-d-bach/" target="_blank"><img src="img/linkedinlogo.png" id="linkedinLink" class="img-fluid m-2 col-1" onmouseover="linkedin_onHover()" onmouseout="linkedin_offHover()"></a>
+        <a href=""><img src="img/resumelogo.png" id="resumeLink" class="img-fluid m-2 col-1" onmouseover="resume_onHover()" onmouseout="resume_offHover()"></a>
+      </div>
+    </div>
+    <div class="col-lg-4 d-none d-sm-none d-md-none d-lg-inline h1 landingLinks">
+      <a href="#about" class="m-5 ">About Me</a>
+      <a href="#about" class="m-5 ">Skills</a>
+      <a href="#about" class="m-5 ">Projects</a>
+      <a href="#about" class="m-5 ">Contact Me</a>
+
+    </div>
+  </div>
+
+  <div class="row" id="Navigation">
+    <nav id="navbar_top" class="navbar navbar-expand-md navbar-expand-lg navbar-dark bg-dark col-12">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Andrew Bach - Full Stack Developer</a>
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+       <div class="collapse navbar-collapse" id="main_nav">
+       <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#"> About </a></li>
+         <li class="nav-item"><a class="nav-link" href="#"> Skills </a></li>
+         <li class="nav-item"><a class="nav-link" href="#"> Projects </a></li>
+         <li class="nav-item"><a class="nav-link" href="#"> Contact Me </a></li>
+         <li class="nav-item"><a class="nav-link" href="#"> Resume </a></li>
+       </ul>
+       </div>
+      </div>
+     </nav>
+    </div>
+
+  <div class="row vh bg-dark" id="about">
+
+  </div>
+
+  <div class="row vh" id="">
+
+  </div>
+
+  <div class="row vh" id="">
+
+  </div>
+
+</div>
+
+<script src="js/imageswap.js"></script>
+</body>
+</html>
